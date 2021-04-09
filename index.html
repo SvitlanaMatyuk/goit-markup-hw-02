@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Веб-студия</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" 
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
 
@@ -17,7 +18,7 @@
 <body>
     <header>
         <nav>
-            <a class="link" href="index.html" class="logo-text">WebStudio</a>
+            <a class="link logo-text" href="index.html">Web<span class="logo-item">Studio</span></a>
             <ul class="list">
                 <li><a class="link link-accent" href="">Студия</a></li>
                 <li><a class="link link-accent" href="./portfolio.html">Потрфолио</a></li>
@@ -26,10 +27,10 @@
         </nav>
         <ul class="list">
             <li>
-                <a class="link link-accent" href="mailto:info@devstudio.com">info@devstudio.com </a>
+                <a class="link link-accent link-address" href="mailto:info@devstudio.com">info@devstudio.com </a>
             </li>
             <li>
-                <a class="link link-accent" href="tel:+380961111111"> +38 096 111 11 11</a>
+                <a class="link link-accent link-address" href="tel:+380961111111"> +38 096 111 11 11</a>
             </li>
         </ul>
     </header>
@@ -37,11 +38,11 @@
         <!-- секция шапка -->
         <section class="section-hero">
             <h1 class="main-title-text">Эффективные решения <br> для вашего бизнеса</h1>
-            <button>Заказать услугу</button>
+            <button class="button-index">Заказать услугу</button>
         </section>
         <!-- секция "наши преимущества". Позже заголовок Н2 будет скрыт -->
         <section>
-            <h2>Наши преимущества</h2>
+            <h2 class="visually-hidden">Наши преимущества</h2>
             <ul class="list">
                 <li>
                     <h3 class="sub-title-text">Внимание к деталям</h3>
@@ -79,39 +80,40 @@
             <ul class="list">
                 <li>
                     <img src="./images/team_photo/img1.jpg" alt="Игорь Демьяненко" width="270" />
-                    <h3  class="team-name-text">Игорь Демьяненко</h3>
-                    <p lang="en">Product Designer</p>
+                    <h3 class="team-name-text">Игорь Демьяненко</h3>
+                    <p class="team-position-text" lang="en">Product Designer</p>
                 </li>
                 <li>
                     <img src="./images/team_photo/img2.jpg" alt="Ольга Репина" width="270" />
-                    <h3  class="team-name-text">Ольга Репина</h3>
-                    <p lang="en">Frontend Developer</p>
+                    <h3 class="team-name-text">Ольга Репина</h3>
+                    <p class="team-position-text" lang="en">Frontend Developer</p>
                 </li>
                 <li>
                     <img src="./images/team_photo/img3.jpg" alt="Николай Тарасов" width="270" />
-                    <h3  class="team-name-text">Николай Тарасов</h3>
-                    <p lang="en">Marketing</p>
+                    <h3 class="team-name-text">Николай Тарасов</h3>
+                    <p class="team-position-text" lang="en">Marketing</p>
                 </li>
                 <li>
                     <img src="./images/team_photo/img4.jpg" alt="Михаил Ермаков" width="270" />
-                    <h3  class="team-name-text">Михаил Ермаков</h3>
-                    <p lang="en">UI Designer</p>
+                    <h3 class="team-name-text">Михаил Ермаков</h3>
+                    <p class="team-position-text"  lang="en">UI Designer</p>
                 </li>
             </ul>
         </section>
     </main>
     <footer class="footer-section">
-        <a class="link" href="index.html">WebStudio</a>
+        <a class="link logo-text" href="index.html">Web<span class="logo-item-white">Studio</span></a>
         <address>
             <ul class="list">
                 <li>
-                    <a class="link" href="https://goo.gl/maps/eZaEBdZkiq7512ZRA">г. Киев, пр-т Леси Украинки, 26</a>
+                    <a class="link address-in-footer" href="https://goo.gl/maps/eZaEBdZkiq7512ZRA">г. Киев, пр-т Леси
+                        Украинки, 26</a>
                 </li>
                 <li>
-                    <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="link address-in-footer-tr" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
                 <li>
-                    <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    <a class="link address-in-footer-tr" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
         </address>
